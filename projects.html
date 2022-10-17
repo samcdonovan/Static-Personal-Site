@@ -1,0 +1,458 @@
+</<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sam's Personal Website</title>
+
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sofia&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/acc7b2f02c.js" crossorigin="anonymous"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="top-container">
+
+      <!-- Navbar -->
+      <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+          <!-- Light/dark mode switch -->
+          <button class="navbar-brand mode-icon"><i class="fa-2x fa-solid fa-sun"></i></button>
+
+          <button class="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto justify-content-center">
+              <li class="nav-item ms-auto">
+                <a class="nav-link ms-auto" href="index.html">About</a>
+              </li>
+              <li class="nav-item ms-auto active">
+                <a class="nav-link ms-auto" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item ms-auto">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="header">
+        <h2 class="section-title">Projects</h2>
+        <p class="header-desc">
+          Here are some of my favourite and most interesting projects that I
+          completed whilst studying Computer Science.
+        </p>
+        <hr />
+      </div>
+    </div>
+
+    <div class="middle-container">
+
+      <div class="container-fluid">
+        <div class="project row bg-1">
+
+          <h2 class="section-title">Twitter Sentiment Analysis</h2>
+          <hr />
+
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="sub-title">Languages:</h3>
+
+              <div class="languages">
+                <span class="badge py">Python</span>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <h3 class="sub-title">Technologies/Frameworks:</h3>
+              <div class="technologies">
+                <span class="badge other">Pandas</span>
+                <span class="badge other">Tweepy</span>
+                <span class="badge other">Plotly</span>
+                <span class="badge other">Scikit-Learn</span>
+                <span class="badge other">NLTK</span>
+                <span class="badge other">Threading</span>
+                <span class="badge db">MySQL</span>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Final year project, scraped 6000 tweets that were related to the
+              FAANG companies’ climate change performance and implemented a
+              Sentiment Analysis algorithm to measure public opinion.
+            </p>
+          </div>
+          <a href="https://github.com/samcdonovan/Tweet-Scraper-With-Sentiment-Analysis" class="proj-link" target="_blank">
+            <i class="fa-brands fa-github fa-5x" alt="github logo"></i>
+          </a>
+        </div>
+
+        <!--
+        <div id="project-1-carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <div class="project-img">
+                <img src="img/sentiment1.png" alt="">
+              </div>
+              <em class="caption">Pie chart (left) displaying overall sentiment for Facebook tweets, line/scatter chart (right) displaying predicted sentiment for Facebook tweets over time.</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <div class="project-img">
+                <img src="img/sentiment2.png" alt="">
+              </div>
+              <em class="caption">Pie chart (left) displaying overall sentiment for Amazon tweets, line/scatter chart (right) displaying predicted sentiment for Amazon tweets over time.</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <div class="project-img">
+                <img src="img/sentiment3.png" alt="">
+              </div>
+              <em class="caption">Pie chart (left) displaying overall sentiment for Amazon tweets, line/scatter chart (right) displaying predicted sentiment for Amazon tweets over time.</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <div class="project-img">
+                <img src="img/sentiment4.png" alt="">
+              </div>
+              <em class="caption">Pie chart (left) displaying overall sentiment for Amazon tweets, line/scatter chart (right) displaying predicted sentiment for Amazon tweets over time.</em>
+            </div>
+
+          </div>
+
+          <a class="carousel-control-prev" href="#project-1-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#project-1-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+  -->
+
+        <div class="project row bg-2">
+          <h2 class="section-title">NBA Data Visualization Website</h2>
+          <hr />
+
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="sub-title">Languages:</h3>
+              <div class="languages">
+                <span class="badge js">JavaScript</span>
+                <span class="badge ts">TypeScript</span>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <h3 class="sub-title">Technologies/Frameworks:</h3>
+
+              <div class="technologies">
+                <span class="badge special">AWS</span>
+                <span class="badge other">Lambda</span>
+                <span class="badge other">SageMaker</span>
+                <span class="badge other">Comprehend</span>
+                <span class="badge db">DynamoDB</span>
+                <span class="badge other">S3</span>
+                <span class="badge other">Websockets</span>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Scraped data and Tweets about NBA teams and used a range of AWS
+              functions to manage this data and produce predictions for future data
+              using ML. This data was then used in the front-end with Plotly for
+              data visualisation.
+            </p>
+          </div>
+          <a href="https://github.com/samcdonovan/Data-Visualization-Website-NBA" class="proj-link" target="_blank">
+            <i class="fa-brands fa-github fa-5x" alt="github logo"></i></a>
+        </div>
+
+        <div class="project row bg-1">
+          <h2 class="section-title">Machine Learning Categoriser for handwritten digits (UCI)</h2>
+          <hr />
+
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="sub-title">Languages:</h3>
+              <div class="languages">
+                <span class="badge java">Java</span>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              The UCI digits is a data set consisting of 5620 handwritten digits. I
+              implemented 3 approaches for categorising these digits: Nearest
+              Neighbour (98.3% acc.), Genetic Algorithm (Tournament Selection,
+              Uniform Crossover, ~70.4% acc.) and Multilayer Perceptron (Sigmoid
+              Transfer/Activation, MSE loss, ~93.6% acc.). Each of these were ran
+              with two-fold tests for the 5620 digits.
+            </p>
+          </div>
+          <a href="https://github.com/samcdonovan/Machine-Learning-Categoriser-for-UCI-Digits" class="proj-link" target="_blank">
+            <i class="fa-brands fa-github fa-5x" alt="github logo"></i>
+          </a>
+        </div>
+        <div class="project row bg-2">
+
+          <h2 class="section-title">Book Price Comparison Website</h2>
+          <hr />
+
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="sub-title">Languages:</h3>
+              <div class="languages">
+                <span class="badge java">Java</span>
+                <span class="badge js">JavaScript</span>
+              </div>
+
+            </div>
+            <div class="col-md-6">
+
+              <h3 class="sub-title">Technologies/Frameworks:</h3>
+              <div class="technologies">
+                <span class="badge other">Maven</span>
+                <span class="badge other">Hibernate</span>
+                <span class="badge other">Spring</span>
+                <span class="badge other">Selenium</span>
+                <span class="badge other">JUnit</span>
+                <span class="badge other">Threads</span>
+                <span class="badge other">RESTful API</span>
+                <span class="badge db">MySQL</span>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Built a price comparison website for books from 5 different retailers.
+              Used JSoup and Selenium web scraping, and a range of other Java
+              frameworks/libraries to manage the project. Built a RESTful API,
+              allowing the user to retrieve data from the database in JSON format.
+            </p>
+          </div>
+          <a href="https://github.com/samcdonovan/Web-Scraping-Price-Comparison-Website" class="proj-link" target="_blank">
+            <i class="fa-brands fa-github fa-5x" alt="github logo"></i></a>
+        </div>
+
+        <div class="project row bg-1">
+
+          <h2 class="section-title">Travelling Salesperson Problem</h2>
+          <hr />
+
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="sub-title">Languages:</h3>
+              <div class="languages">
+                <span class="badge java">Java</span>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Implemented Held-Karp, a dynamic programming exact algorithm for the
+              TSP that runs in less than 20 seconds for 20 cities. Also implemented
+              a custom Hash Table implementation to provide O(1) get and put
+              functions.
+            </p>
+          </div>
+          <a href="https://github.com/samcdonovan/Held-Karp-TSP" class="proj-link" target="_blank">
+            <i class="fa-brands fa-github fa-5x" alt="github logo"></i></a>
+        </div>
+        <div class="project row bg-2">
+
+          <h2 class="section-title">E-Commerce Website</h2>
+          <hr />
+
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="sub-title">Languages:</h3>
+              <div class="languages">
+                <span class="badge js">JavaScript</span>
+                <span class="badge php">PHP</span>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <h3 class="sub-title">Technologies/Frameworks:</h3>
+              <div class="technologies">
+                <span class="badge db">MongoDB</span>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Mock e-commerce website for trainers. Allowed the user to sign up for
+              an account, add items to their basket, and "purchase" those items
+              (this data was stored in a local MongoDB database). A Content
+              Management System (CMS) was implemented for this project, allowing
+              "staff" to manually check stock counts, change stock details and
+              view/edit customer purchase history.
+            </p>
+          </div>
+          <a href="https://github.com/samcdonovan/E-Commerce-Website" class="proj-link" target="_blank">
+            <i class="fa-brands fa-github fa-5x" alt="github logo"></i></a>
+        </div>
+
+        <div class="project row bg-1">
+
+          <h2 class="section-title">Tetris Game Website</h2>
+          <hr />
+
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="sub-title">Languages:</h3>
+              <div class="languages">
+                <span class="badge js">JavaScript</span>
+                <span class="badge php">PHP</span>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Created a local website and a JavaScript Tetris which can be played on
+              the website. It also allows users to sign up for an account (stored in
+              session storage) and save their high scores on a leaderboard.
+            </p>
+          </div>
+          <a href="https://github.com/samcdonovan/Tetris-Website" class="proj-link" target="_blank">
+            <i class="fa-brands fa-github fa-5x" alt="github logo"></i></a>
+        </div>
+
+        <div class="project row bg-2">
+          <h2 class="section-title">Mock Running App (Single Page WebApp)</h2>
+          <hr />
+
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="sub-title">Languages:</h3>
+              <div class="languages">
+                <span class="badge js">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <h3 class="sub-title">Technologies/Frameworks:</h3>
+              <div class="technologies">
+                <span class="badge other">Promises</span>
+                <span class="badge other">Node</span>
+                <span class="badge db">MySQL</span>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Created a local website that acts as a running app. This is inspired
+              by Strava, so allows users to record and post exercises, view a
+              timeline of their friends' exercises, and comment and like those
+              posts. As a pseudo social media site, it also allows users to create
+              profiles and upload profile pictures.
+            </p>
+          </div>
+          <a href="https://github.com/samcdonovan/Running-App-Single-Page-WebApp" class="proj-link" target="_blank">
+            <i class="fa-brands fa-github fa-5x" alt="github logo"></i></a>
+        </div>
+
+        <div class="project row bg-1">
+          <h2 class="section-title">Hashtable Library System</h2>
+          <hr />
+
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="sub-title">Languages:</h3>
+              <div class="languages">
+                <span class="badge cpp">C++</span>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <h3 class="sub-title">Technologies/Frameworks:</h3>
+              <div class="technologies">
+                <span class="badge other">Catch2 (Testing)</span>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Implemented a Hash Table from scratch with linear probing for
+              collision resolution and a custom String hash function. Works on a
+              simple "library system", where it can store, retrieve and delete books
+              from the system and can realistically provide O(1) time complexity and
+              good space complexity if the number of books is of a reasonable size.
+            </p>
+          </div>
+          <a href="https://github.com/samcdonovan/CPP-HashTable" class="proj-link" target="_blank">
+            <i class="fa-brands fa-github fa-5x" alt="github logo"></i></a>
+        </div>
+
+        <div class="project row bg-2">
+          <h2 class="section-title">Mock Voice User Interface</h2>
+          <hr />
+
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="sub-title">Languages:</h3>
+              <div class="languages">
+                <span class="badge js">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <h3 class="sub-title">Technologies/Frameworks:</h3>
+              <div class="technologies">
+                <span class="badge other">WebKitSpeech</span>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Created a mock IDE which could be controlled by a voice user interface
+              (VUI). This project was more about the exploration of how VUI's could
+              be used in an educational setting, and was less about the
+              implementation, but was highly interesting and very fun to create. The
+              VUI is named "CLIDE".
+            </p>
+          </div>
+          <a href="https://github.com/samcdonovan/Mock-Voice-User-interface" class="proj-link" target="_blank">
+            <i class="fa-brands fa-github fa-5x" alt="github logo"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/samuel-c-donovan/">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/samcdonovan">GitHub</a>
+      <p class="copyright">© Samuel Donovan.</p>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+  <!-- Local JS -->
+  <script src="index.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
