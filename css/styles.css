@@ -30,6 +30,11 @@ hr {
   width: 10%;
   border-width: 5px;
   margin: auto;
+  margin-top: 10px;
+}
+
+.profile hr {
+  margin-top: 50px;
 }
 
 .active:after {
@@ -100,8 +105,6 @@ a:hover {
 .middle-container {
   margin: 0;
   padding: 0;
-  /*  margin: 100px 0;
-*/
 }
 
 .wrapper {
